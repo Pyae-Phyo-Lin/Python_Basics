@@ -4,7 +4,7 @@
 empty_list =[]
 print(f"A empty list : {empty_list}, {type(empty_list)}")
 
-string_list = ["python","coffee","technolgy"]   #string list
+string_list = ["python","coffee","technology"]   #string list
 number_list = [0,7,9,5]    #numbers list
 mix_list = ["apple", 10, 3.14, None, True] #in a python list can include string, int, float, boolean
 
