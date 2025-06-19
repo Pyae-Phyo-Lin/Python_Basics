@@ -11,3 +11,15 @@ mix_list = ["apple", 10, 3.14, None, True] #in a python list can include string,
 print(f"String List : {string_list}.")
 print(f"Numbers List : {number_list}.")
 print(f"Mixed List : {mix_list}.")
+
+#List Add item
+string_list.append("github")
+print(string_list)              #['python', 'coffee', 'technology', 'github']
+
+string_list.insert(0,"code")    #index 0 (first position) insert an item
+print(string_list)              #['code', 'python', 'coffee', 'technology', 'github']
+
+
+#Change item value
+string_list[0] = "code_space"
+print(string_list)
